@@ -1,0 +1,29 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dubilyer/pom-playwright-artillery.git"
+  },
+  "keywords": [
+    "playwright",
+    "artillery",
+    "pom",
+    "reuse"
+  ],
+  "author": "edaorik@skipper-soft.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dubilyer/pom-playwright-artillery/issues"
+  },
+  "homepage": "https://github.com/dubilyer/pom-playwright-artillery#readme",
+  "dependencies": {
+    "@playwright/test": "^1.24.2",
+    "playwright": "1.24.2"
+  }
+}
