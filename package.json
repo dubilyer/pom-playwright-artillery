@@ -1,5 +1,5 @@
 {
-  "name": "y",
+  "name": "pom-reusability",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -24,9 +24,9 @@
   },
   "homepage": "https://github.com/dubilyer/pom-playwright-artillery#readme",
   "dependencies": {
-    "@playwright/test": "^1.24.2",
-    "artillery": "^2.0.0-3",
-    "artillery-engine-playwright": "^0.0.6",
-    "playwright": "^1.24.2"
+    "@playwright/test": "1.24.2",
+    "artillery": "2.0.0-3",
+    "artillery-engine-playwright": "0.0.6",
+    "playwright": "1.24.2"
   }
 }
