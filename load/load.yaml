@@ -1,0 +1,12 @@
+config:
+  target: 'https://www.google.com'
+  engines:
+    playwright: {}
+  processor: "./flows/happyFlow.js"
+  phases:
+    - arrivalRate: 3
+      duration: 1
+scenarios:
+  - engine: playwright
+    flowFunction: "hf"
+    flow: []
